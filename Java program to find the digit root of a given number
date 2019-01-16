@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Example {
+	public static int SumOfDigits(int m)
+	{
+       int remainder,sum=0;
+	   while(m!=0)
+	   {
+		   remainder = m%10;
+		   sum = sum+remainder;
+		   m = m/10;
+	   }
+	   return sum;
+	}
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int n = in.nextInt();
+		while(n>=10)
+		{
+			int sod = SumOfDigits(n);
+			n = sod;
+		}
+		System.out.println(n);
+	}
+}
