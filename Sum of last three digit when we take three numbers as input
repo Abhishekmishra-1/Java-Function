@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Example {
+	public static int Sum(int num)
+	{
+		int SOD = (num%10)+((num%100)/10)+((num%1000)/100);
+		return SOD;
+	}
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter first number");
+		int n1 = in.nextInt();
+		System.out.println("Enter second number");
+		int n2 = in.nextInt();
+		System.out.println("Enter third number");
+		int n3 = in.nextInt();
+		int SOD1 = Sum(n1);
+		int SOD2 = Sum(n2);
+		int SOD3 = Sum(n3);
+		System.out.println(SOD1);
+		System.out.println(SOD2);
+		System.out.println(SOD3);
+	}
+}
