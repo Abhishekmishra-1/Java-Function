@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main7 {
+class GCD2 {
 	public static void main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
