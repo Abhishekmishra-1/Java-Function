@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Example {
+class Square {
 	public static int Square(int n)
 	{
 		int square = n*n;
