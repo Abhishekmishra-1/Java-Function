@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main1 {
+class AbsoluteValue {
 	public static int abs(int x)
    {
     return (x + (x >> 31)) ^ (x >> 31);
