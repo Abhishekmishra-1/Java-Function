@@ -3,8 +3,10 @@ class SumOfTwoNumbersAsString
 { 
 	public static void main(String args[]) 
 	{	   
-		Scanner in = new Scanner(System.in); 
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter first number as string: ");
 		String inp1 = in.nextLine(); 
+		System.out.println("Enter second number as string: ");
 		String inp2 = in.nextLine();
     	        StringBuilder sb1 = new StringBuilder(inp1);
     	        StringBuilder sb2 = new StringBuilder(inp2);
