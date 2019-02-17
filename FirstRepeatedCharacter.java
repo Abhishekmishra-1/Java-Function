@@ -4,9 +4,10 @@ class FirstRepeatedCharacter
    public static void main (String[] args)
    {
       Scanner sc = new Scanner(System.in);
+      System.out.println("Enter a string: ");
       String str = sc.nextLine();
       
-int str_len = str.length();
+      int str_len = str.length();
       int repeat_count[] = new int[str_len];
       for(int index = 0; index < str_len; index++)
       {
