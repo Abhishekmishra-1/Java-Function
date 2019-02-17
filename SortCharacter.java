@@ -4,6 +4,7 @@ class SortCharacter
  public static void main (String[] args)
  {
     Scanner in = new Scanner(System.in);
+    System.out.println("Enter a string: ");
     String str = in.nextLine();
     StringBuilder string = new StringBuilder(str);
     int str_len = string.length();
