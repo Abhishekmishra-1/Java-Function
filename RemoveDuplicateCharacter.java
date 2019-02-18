@@ -4,6 +4,7 @@ class RemoveDuplicateCharacter
  public static void main (String[] args)
  {
     Scanner in = new Scanner(System.in);
+    System.out.println("Enter a string: ");
     String string = in.nextLine();
     StringBuilder str = new StringBuilder(string);
     int str_len = str.length();
