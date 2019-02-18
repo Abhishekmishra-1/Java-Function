@@ -4,6 +4,7 @@ class StringMatchWithRegEx
  public static void main (String[] args)
  {
     Scanner in = new Scanner(System.in);
+    System.out.println("Enter a string: ");
     String str = in.nextLine();
     String pattern = in.nextLine();
     int str_len = str.length();
