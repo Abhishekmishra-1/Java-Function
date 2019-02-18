@@ -4,7 +4,9 @@ class NonContiguously
    public static void main (String[] args) 
    {
        Scanner in = new Scanner(System.in);
+       System.out.println("Enter a sentence: ");
        String sentence = in.nextLine();
+       System.out.println("Enter a word: ");
        String word = in.nextLine();
        int sentence_len = sentence.length();
        int word_len = word.length();
