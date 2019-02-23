@@ -8,7 +8,8 @@ public class GCDOfThreeNumber {
 		int n2 = in.nextInt();
 		int n3 = in.nextInt();
 		int result = GCD(n1,n2);
-		System.out.println(GCD(result,n3));
+		int answer = GCD(result,n3);
+		System.out.println("GCD of three numbers is: "+answer);
 	}
 	public static int GCD(int num1,int num2)
 	{
