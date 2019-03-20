@@ -1,5 +1,6 @@
 class Car
 {
+	//Attributes
 	private int doors;
 	private int wheels;
 	private String model;
